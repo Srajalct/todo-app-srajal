@@ -1,0 +1,79 @@
+.shell {
+    border: 2px solid #1CAC78;
+    height: 50vw;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Shell Styling */
+/* .shell {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+  } */
+  
+  .shell h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* MF1 and MF2 Specific Containers */
+  .mf1,
+  .mf2 {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .app-title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .app-nav {
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem;
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .nav-item {
+    font-size: 1rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #4caf50;
+  }
+  
+  .app-content {
+    padding: 1rem;
+  }
+  

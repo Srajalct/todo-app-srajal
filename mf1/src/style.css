@@ -1,0 +1,67 @@
+.mf1 {
+    border: 2px solid #7CB9E8;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* General Container */
+.container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Microservice 1 Styles */
+  /* .mf1 {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-bottom: 2px solid #ddd;
+  } */
+  
+  .mf1 h1 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .task-item {
+    list-style: none;
+    margin: 8px 0;
+    padding: 5px;
+    background-color: #e7f3ff;
+    border: 1px solid #b3d1ff;
+    border-radius: 4px;
+  }
+  
+  .get-results-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .get-results-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Microservice 2 Styles */
+  .mf2 {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fdfdfe;
+  }
+  
+  .mf2 p {
+    font-size: 1em;
+    color: #555;
+  }
+  
